@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:5-apache
 MAINTAINER Szőke Károly <szoke.karcsi@gmail.com>
 RUN docker-php-ext-install mysqli pdo_mysql
 RUN pecl install xdebug \
